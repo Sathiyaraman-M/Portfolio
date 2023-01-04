@@ -15,3 +15,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SATHIYARAMAN_M_PORTFOLIO }}'
           projectId: sathiyaraman-m-portfolio
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
