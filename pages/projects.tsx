@@ -1,6 +1,5 @@
 import PageHeader from '../components/shared/page-header'
 import Modals from "../components/modals";
-import Image from "next/image";
 const Projects = () => (
     <>
         <PageHeader pageTitle={"Projects"} />
